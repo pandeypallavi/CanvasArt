@@ -25,7 +25,7 @@ var grd = c.createLinearGradient(0,0,0,window.innerHeight);
 // ============== place an image ===========================================
 var c1 = canvas.getContext('2d');
  var pict = new Image();
-     pict.src = "img/couple.png";
+     pict.src = "couple.png";
      pict.onload = function() {
           c1.drawImage(pict, 500, 240, pict.width*0.75, pict.height*0.75);
    }
@@ -35,7 +35,7 @@ var c1 = canvas.getContext('2d');
 
   var c11 = canvas.getContext('2d');
  var pict1 = new Image();
-     pict1.src = "img/heart.png";
+     pict1.src = "heart.png";
      pict1.onload = function() {
           c11.drawImage(pict1, 748, 224, pict.width*0.09, pict.height*0.09);
    }
